@@ -17,7 +17,7 @@ function setupMobileMenuToggle() {
   const toggleBtnIcon = document.querySelector('.toggle_btn i');
   const mobileMenu = document.querySelector('.mobile-menu');
 
-  if (!toggleBtn || !mobileMenu) return; // ป้องกัน error ถ้า element ยังไม่มา
+  if (!toggleBtn || !mobileMenu) return;
 
   toggleBtn.onclick = function () {
     mobileMenu.classList.toggle('open');
