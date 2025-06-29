@@ -47,12 +47,21 @@ main {
   text-align: center;
 }
 
+/* โลโก้ ขนาดมือถือ */
+
+@media(max-width: 800px) {
+  .logo-text .logo-text-a {
+    font-size: 40px;
+  }
+}
+
 /* ช่องค้นหา */ 
 
 .search-bar {
   position: relative;
   width: 800px;
   max-width: 90%;
+  z-index: 1;
 }
 
 .search-bar input {
@@ -81,3 +90,4 @@ main {
   color: rgb(100, 100, 100);
   cursor: pointer;
 }
+
